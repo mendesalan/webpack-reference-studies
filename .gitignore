@@ -1,2 +1,8 @@
 01-Zero-Config/node_modules
 01-Zero-Config/dist
+
+02-webpack-babel/node_modules
+02-webpack-babel/dist
+
+03-webpack-minification-mode/node_modules
+03-webpack-minification-mode/dist
