@@ -6,3 +6,6 @@
 
 03-webpack-minification-mode/node_modules
 03-webpack-minification-mode/dist
+
+04-webpack-sass-comp/node_modules
+04-webpack-sass-comp/dist
