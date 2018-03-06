@@ -1,0 +1,14 @@
+$color-default: red;
+
+body {
+    background-color: $color-default;
+}
+
+h1 {
+    font-size: 30px;
+    color: $color-default;
+}
+
+.logo {
+    background: url("./images/stub.png")
+}
