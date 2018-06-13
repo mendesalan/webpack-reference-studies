@@ -9,3 +9,6 @@
 
 04-webpack-sass-comp/node_modules
 04-webpack-sass-comp/dist
+
+05-webpack-img-comp/node_modules
+05-webpack-img-comp/dist

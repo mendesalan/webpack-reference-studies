@@ -1,0 +1,33 @@
+{
+  "name": "zero-config-webpack",
+  "version": "1.0.0",
+  "description": "xbit",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "concurrently \" webpack --watch --mode development \" \" http-server -a localhost -p 8000 \" ",
+    "build": "webpack --mode production"
+  },
+  "author": "Alan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  }
+}
